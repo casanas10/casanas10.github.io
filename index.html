@@ -14,22 +14,65 @@
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+  <header id="page-hero" class="site-header">
+    <nav class="site-nav chalkboard text-uppercase navbar navbar-expand-md navbar-dark">
 
     	<div class="container-fluid">
+
     		<a class="navbar-brand" href="#page-hero">Alex Casanas </a>
 
-	    	<div class="navbar-nav">
-		      <a class="nav-item nav-link" href="#page-hero">About Us</a>
-		      <a class="nav-item nav-link" href="#page-skills">Skills</a>
-		      <a class="nav-item nav-link" href="#page-portfolio">Portfolio</a>
-		      <a class="nav-item nav-link" href="#page-contact">Contact</a>
-		    </div>
+    		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="#myTogglerNav"
+          aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+	    	<section class="collapse navbar-collapse" id="myTogglerNav">
+		    	<div class="navbar-nav ml-auto">
+			      <a class="nav-item nav-link" href="#page-hero">About Us</a>
+			      <a class="nav-item nav-link" href="#page-skills">Skills</a>
+			      <a class="nav-item nav-link" href="#page-portfolio">Portfolio</a>
+			      <a class="nav-item nav-link" href="#page-contact">Contact</a>
+			    </div>
+			  </section>
     	</div>
     
     </nav>
+
+    <section class="layout-hero text-center d-flex align-items-center">
+    	<div class="container">
+    		<div class="row justify-content-center">
+    			<div class="col-11 col-sm-10 col-md-8">
+    				<h3 class="page-section-title">Alex Casanas </h3>
+    				<p class="page-section-text">Software Developer with a passion for AI/ML.</p>
+    			</div>
+    		</div>
+				<div class="row layout-social justify-content-center mt-5">
+					<div class="col d-flex justify-content-center">
+						<a class="text-light px-4" href="https://www.linkedin.com/in/alejandro-casanas-bb9362104/">
+			        <i class="layout-icon fab fa-linkedin-in"></i>
+			        <p>LinkedIn</p>
+			      </a>
+			      <a class="text-light px-4" href="https://github.com/casanas10">
+			        <i class="layout-icon fab fa-github"></i>
+			        <p>Github</p>
+			      </a>
+			      <a class="text-light px-4" href="https://twitter.com/planetoftheweb">
+			        <i class="layout-icon fas fa-envelope-square "></i>
+			        <p>Email</p>
+			      </a>
+			      <a class="text-light px-4" href="https://twitter.com/planetoftheweb">
+			        <i class="layout-icon fas fa-file"></i>
+			        <p>Resume</p>
+			      </a>
+					</div>
+				</div>
+	    </div>
+    </section>
   </header>
+
+  <section>
+  	<p> Here </p>
+  </section>
 
   <script src="js/lib/jquery.min.js"></script>
   <script src="js/lib/bootstrap.bundle.min.js"></script>
