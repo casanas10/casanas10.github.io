@@ -77,6 +77,10 @@ body {
     color: white;
 }
 
+#page-skills {
+    background-color: #FCFAE3;
+}
+
 .page-section-header .page-section-title {
     font-size: 2em;
     font-family: var(--font-family-sans-serif);
@@ -92,6 +96,10 @@ body {
     color: var(--purple);
     font-family: var(--font-family-sans-serif);
     font-weight: 200;
+}
+
+.card {
+    background-color: #FCFAE3;
 }
 
 .card-img-top {
@@ -113,4 +121,63 @@ body {
     background-color: #070202;
 }
 
+.layout-project {
+    width: 85%;
+}
 
+.layout-project .page-section-title {
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+    color: var(--purple);
+}
+
+.layout-project .layout-code-button {
+    position:absolute;
+    bottom:2em;
+}
+
+
+#page-contact {
+    background-color: #FCFAE3;
+}
+
+.layout-contact .page-section-text{
+    font-size: 1.5em;
+}
+
+.layout-contact .layout-button {
+    margin: 1rem 0;
+    text-align: left;
+}
+
+
+.layout-copyright{
+    min-height: 2em;
+    align-items: center;
+    padding: 2em;
+}
+
+.layout-copyright .layout-copyright-text{
+    margin:0;
+}
+
+.layout-copyright-text {
+    position: absolute;
+    left:1em;
+}
+
+.layout-social-icons {
+    position: absolute;
+    right: 1em;
+    font-size: 1.5em;
+}
+
+#linkedin-btn {
+  background-color: #0077b5;
+}
+
+#email-btn {
+  background-color: #02010a;
+}
