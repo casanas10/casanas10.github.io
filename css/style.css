@@ -49,6 +49,22 @@ body {
     font-weight: 200;
 }
 
+.container {
+  height: inherit;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#page-skills .page-section-header .page-section-title {
+    font-size: 2em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 300;
+    color: var(--purple);
+}
+
+
 .site-header {
     /*background: url(../images/background2.jpg);*/
     background-color: var(--purple);
@@ -77,19 +93,27 @@ body {
     color: white;
 }
 
-#page-skills {
-    background-color: #FCFAE3;
-}
-
-.page-section-header .page-section-title {
+#page-portfolio .page-section-header .page-section-title {
     font-size: 2em;
     font-family: var(--font-family-sans-serif);
     font-weight: 300;
     color: var(--purple);
 }
 
+.page-section-header .page-section-title {
+    font-size: 2em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 300;
+    color: white;
+}
+
 .layout-media .layout-image {
     max-width: 64px;
+}
+
+.card-body {
+    padding: 0;
+    text-align: center;
 }
 
 .layout-media .layout-title {
@@ -98,9 +122,9 @@ body {
     font-weight: 200;
 }
 
-.card {
+/*.card {
     background-color: #FCFAE3;
-}
+}*/
 
 .card-img-top {
     width: 100px;
@@ -117,34 +141,25 @@ body {
     color: var(--purple);
 }
 
-#page-portfolio {
-    background-color: #070202;
-}
 
-.layout-project {
-    width: 85%;
+#page-portfolio {
+    background-color: #FCFAE3;
 }
 
 .layout-project .page-section-title {
-    padding-top: 1.5em;
     font-size: 1.5em;
     font-family: var(--font-family-sans-serif);
     font-weight: 200;
     color: var(--purple);
 }
 
-.layout-project .layout-code-button {
-    position:absolute;
-    bottom:2em;
-}
-
-
 #page-contact {
-    background-color: #FCFAE3;
+    background-color: var(--purple);
 }
 
 .layout-contact .page-section-text{
     font-size: 1.5em;
+    color: white;
 }
 
 .layout-contact .layout-button {
@@ -156,22 +171,17 @@ body {
 .layout-copyright{
     min-height: 2em;
     align-items: center;
-    padding: 2em;
-}
-
-.layout-copyright .layout-copyright-text{
-    margin:0;
+    padding: 1.5em;
 }
 
 .layout-copyright-text {
-    position: absolute;
-    left:1em;
+    color: white;
 }
 
 .layout-social-icons {
-    position: absolute;
-    right: 1em;
     font-size: 1.5em;
+    text-align: right;
+    color: white;
 }
 
 #linkedin-btn {
@@ -180,4 +190,28 @@ body {
 
 #email-btn {
   background-color: #02010a;
+}
+
+.layout-copyright-container {
+    max-width: 100%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 768px) { 
+
+  .layout-copyright-text {
+    font-size: 0.8em;
+    text-align: center;
+    max-width: inherit;
+    flex: none;
+    padding-bottom: 0.5em;
+  }
+
+  .layout-social-icons {
+    font-size: 1em;
+    text-align: center;
+    max-width: inherit;
+    flex: none;
+  }
+
 }
