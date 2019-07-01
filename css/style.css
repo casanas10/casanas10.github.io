@@ -35,6 +35,8 @@
     --gray-dark: #404040;
     --color-text(--gray--dark);
     --font-family-text: var(--font-family-serif);
+
+    --purple: #7037CB;
 }
 
 .chalkboard {
@@ -49,7 +51,7 @@ body {
 
 .site-header {
     /*background: url(../images/background2.jpg);*/
-    background-color: #7037CB;
+    background-color: var(--purple);
     /*background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;*/
@@ -60,17 +62,36 @@ body {
 }
 
 .site-header .page-section-title {
-    font-size: 4em;
+    font-size: 3em;
     font-family: var(--font-family-sans-serif);
     font-weight: 300;
-    color: white;
-}
-
-.site-header .page-section-text {
-    font-size: 2em;
     color: white;
 }
 
 .layout-social .layout-icon {
   font-size: 2em;
 }
+
+.site-header .page-section-text {
+    font-size: 1.5em;
+    color: white;
+}
+
+.page-section-header .page-section-title {
+  font-size: 2em;
+  font-family: var(--font-family-sans-serif);
+  font-weight: 300;
+  color: var(--purple);
+}
+
+.layout-media .layout-image {
+    max-width: 64px;
+}
+
+.layout-media .layout-title {
+    color: var(--purple);
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+}
+
+
