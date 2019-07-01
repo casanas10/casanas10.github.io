@@ -69,7 +69,7 @@ body {
 }
 
 .layout-social .layout-icon {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 .site-header .page-section-text {
@@ -78,10 +78,10 @@ body {
 }
 
 .page-section-header .page-section-title {
-  font-size: 2em;
-  font-family: var(--font-family-sans-serif);
-  font-weight: 300;
-  color: var(--purple);
+    font-size: 2em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 300;
+    color: var(--purple);
 }
 
 .layout-media .layout-image {
@@ -92,6 +92,25 @@ body {
     color: var(--purple);
     font-family: var(--font-family-sans-serif);
     font-weight: 200;
+}
+
+.card-img-top {
+    width: 100px;
+}
+
+.layout-skills .layout-image {
+    align-self: center;
+} 
+
+.layout-skills .layout-title {
+    font-size: 1.5em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+    color: var(--purple);
+}
+
+#page-portfolio {
+    background-color: #070202;
 }
 
 
