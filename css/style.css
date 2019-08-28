@@ -212,6 +212,11 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 768px) { 
 
+  .vid-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
   .layout-copyright-text {
     font-size: 0.8em;
     text-align: center;
