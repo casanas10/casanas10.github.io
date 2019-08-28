@@ -73,6 +73,10 @@ body {
     background-size: cover;*/
 }
 
+.site-nav {
+    background-color: var(--purple)
+}
+
 .site-header .layout-hero {
     min-height: 50vh;
 }
@@ -196,6 +200,15 @@ body {
     max-width: 100%;
 }
 
+.search-box {
+    text-align: center;
+}
+
+.text-box-search {
+    width: 50%;
+    height: 5vh;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 768px) { 
 
@@ -214,4 +227,7 @@ body {
     flex: none;
   }
 
+  .text-box-search {
+    width: 80%;
+  }    
 }
