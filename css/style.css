@@ -209,14 +209,14 @@ body {
     height: 5vh;
 }
 
-
+/* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
   .page-section-title {
     padding-top: 2rem;
   }
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
+/* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
 
   .vid-fluid {
